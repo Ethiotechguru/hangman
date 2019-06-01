@@ -1,19 +1,52 @@
-.body {
-    width: 1000px;
-    height:800px;
-    max-width: 100%;
+body {
     background-repeat: no-repeat;
-    background-size: auto;
-    background-image: url('https://assets1.ignimgs.com/2019/04/25/avengers-cast-1556221213216_1280w.jpg')
+    background-size: 100%;
+    background-image: url('https://wallpapercave.com/wp/I2fII8e.jpg');
 }
-header, main, footer {
-    width: 100%;
-    height: 200px;
-    border: 10px dashed rgba(52, 159, 192, 0.856);
-    margin: 1em auto;
+ul{
+    max-width: 410px;
+    text-align: center;
+    margin: 0 auto;
+    list-style-type: none;
+    background: rgba(110, 62, 187, 0.658);
+    border-radius: 20px;
+    box-shadow:5px 10px #482377f1;;
 }
-div{
+.liBtn{
+    width: 60px;
+    height: 50px;
     background: black;
-    width: 50%;
-    height: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+    display:inline-block;
+    border-radius: 50%;
+}
+
+.input{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border: 3px solid purple;
+    border-radius: 30px;
+}
+.ulWraper{
+    margin-top: 50px;
+   
+}
+.inputWraper{
+    margin-top: 30px;
+}
+.upertitle{
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(163, 125, 224, 0.658);
+}
+.output{
+    margin: 20px;
+    text-align: center;
+    
 }
