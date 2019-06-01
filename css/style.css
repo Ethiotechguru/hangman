@@ -1,0 +1,19 @@
+.body {
+    width: 1000px;
+    height:800px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url('https://assets1.ignimgs.com/2019/04/25/avengers-cast-1556221213216_1280w.jpg')
+}
+header, main, footer {
+    width: 100%;
+    height: 200px;
+    border: 10px dashed rgba(52, 159, 192, 0.856);
+    margin: 1em auto;
+}
+div{
+    background: black;
+    width: 50%;
+    height: 50%;
+}
