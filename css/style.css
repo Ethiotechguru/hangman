@@ -2,6 +2,7 @@ body {
     background-repeat: repeat-y;
     background-size: 100%;
     background-image: url('https://wallpapercave.com/wp/I2fII8e.jpg');
+    background-color: rgb(2, 37, 43);
     
 }
 .ligreen{
@@ -59,6 +60,7 @@ ul li{
     text-align: center;
     color: white;
     background: lightblue;
+    clear: both;
      
 }
 .btn1{
@@ -81,4 +83,37 @@ ul li{
     border-radius: 10px;
     font-size: 20px;
     font-weight: 600;
+}
+.span1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 0 auto;
+    background-color: rgba(230, 4, 4, 0.872);
+   padding:10px 20px;
+   border-radius: 10px;
+}
+.span2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+    margin: 0 auto;
+    background-color: rgba(34, 235, 148, 0.872);
+   padding:10px 20px;
+   border-radius: 10px;
+   
+}
+.span3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+   margin: 0 auto;
+   background-color: rgba(28, 128, 0, 0.872);
+   padding:10px 20px;
+   border-radius: 10px;
+   
+}
+.span{
+    
 }
