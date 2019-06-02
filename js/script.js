@@ -36,6 +36,7 @@ for(var i = 0; i < allAlpha.length; i++){
             massageDispay2.classList.add('span2');
             massageDispay3.textContent = 'You are Correct!';
             massageDispay1.textContent= '';
+            massageDispay2.textContent = clickedLetter;
 
         }
         else{
