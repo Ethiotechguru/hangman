@@ -10,7 +10,7 @@ body {
 }
 .liRed{
     background: red;
-    display: none;
+    /* display: none; */
 }
 ul{
     max-width: 410px;
@@ -71,7 +71,7 @@ ul li{
     display:block;
     position: relative;
     left: 400px;
-    bottom: 500px;
+    bottom: 160px;
     border-radius: 20px;
     box-shadow: 3px -3px #482377f1;
     outline: none;
@@ -88,7 +88,7 @@ ul li{
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 20px;
-    margin: 0 auto;
+    margin: 0 0 0 30px;
     background-color: rgba(230, 4, 4, 0.872);
    padding:10px 20px;
    border-radius: 10px;
@@ -108,7 +108,7 @@ ul li{
     text-align: center;
     color: white;
     font-size: 20px;
-   margin: 0 auto;
+   margin: 0 0 0 30px;
    background-color: rgba(28, 128, 0, 0.872);
    padding:10px 20px;
    border-radius: 10px;
