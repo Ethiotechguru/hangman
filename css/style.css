@@ -1,7 +1,15 @@
 body {
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100%;
     background-image: url('https://wallpapercave.com/wp/I2fII8e.jpg');
+    
+}
+.ligreen{
+    background: lightgreen;
+}
+.liRed{
+    background: red;
+    display: none;
 }
 ul{
     max-width: 410px;
@@ -12,7 +20,7 @@ ul{
     border-radius: 20px;
     box-shadow:5px 10px #482377f1;;
 }
-.liBtn{
+ul li{
     width: 60px;
     height: 50px;
     background: black;
@@ -25,13 +33,14 @@ ul{
 }
 
 .input{
-    width: 400px;
+    width: 500px;
     height: 50px;
     text-align: center;
     margin: 0 auto;
     display: block;
     border: 3px solid purple;
     border-radius: 30px;
+    outline: none;
 }
 .ulWraper{
     margin-top: 50px;
@@ -46,7 +55,30 @@ ul{
     color: rgba(163, 125, 224, 0.658);
 }
 .output{
-    margin: 20px;
+    margin: 20px auto;
     text-align: center;
-    
+    color: white;
+    background: lightblue;
+     
+}
+.btn1{
+    margin: 100px auto;
+    font-size: 30px;
+    text-align: center;
+    background: rgba(81, 3, 206, 0.658);
+    display:block;
+    position: relative;
+    left: 400px;
+    bottom: 500px;
+    border-radius: 20px;
+    box-shadow: 3px -3px #482377f1;
+    outline: none;
+    padding: 10px;
+}
+.p{
+    max-width: 410px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
