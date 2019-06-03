@@ -5,15 +5,7 @@ unList.style.display = 'none'
 var palyFunc = document.querySelector('#btn1');
 palyFunc.addEventListener('click', function(){
     unList.style.display = 'block'
-    var colors = [
-        'rgb(255, 0, 0)',
-        'rgb(0, 255, 0)',
-        'rgb(0, 0, 255)',
-        'rgb(255, 255, 0)',
-        'rgb(255, 0, 255)',
-        'rgb0, 255, 255)',
-    ];
-    var myName = 'SAMUEL';
+    var myName = 'SAMUEL';//generatRadomLatter(6);
     var firstLetter = pickLatter();
     var nameTogues = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
         'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
@@ -41,7 +33,7 @@ palyFunc.addEventListener('click', function(){
                 massageDispay2.classList.add('span2');
                 massageDispay3.textContent = 'You are Correct!';
                 massageDispay1.textContent = '';
-                massageDispay2.textContent = clickedLetter;
+                massageDispay2.textContent += firstLetter//clickedLetter;
 
             }
             else {
@@ -64,7 +56,27 @@ palyFunc.addEventListener('click', function(){
     // }
     function pickLatter(){
        var randomPick = Math.floor(Math.random()*myName.length);
-       return myName[randomPick]
+       return myName[randomPick];
+    }
+
+    function generatRadomLatter(char){
+        //make an array
+        var arr = [];
+        //add char random letter to arry
+        for(var i =0; i<char; i++){
+            //get random letter and phush to array;
+        }
+        return arr;
+    }
+    function randomletter(){
+        //pick latter
+        var s = 'S';
+        var a = 'A';
+        var m = 'M';
+        var u = 'U';
+        var e = 'E';
+        var l = 'L';
+        return (s + a + m + u+ e+ l);
     }
 });
 

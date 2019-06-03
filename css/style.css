@@ -114,6 +114,16 @@ ul li{
    border-radius: 10px;
    
 }
-.span{
-    
-}
+@media only screen and (max-width: 1000px) {
+    .btn1 {
+        position: relative;
+        left: 30px;
+        bottom: -100px;
+    }
+    .input{
+        width: 300px;
+    }
+    .upertitle{
+        color: white;
+    }
+  }
